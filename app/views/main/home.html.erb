@@ -1,10 +1,12 @@
 <% provide(:title, "Home") %>
-<!DOCTYPE html>
-<html>
-  <head>
-  </head>
-  <body>
-    <h1>Main#home</h1>
-    <p>Find me in app/views/main/home.html.erb</p>
-  </body>
-</html>
+<div class="container">
+	<%= image_tag "logo.png", id: "logo" %>
+
+	<h2>OCTOBER 23RD-25TH</h2>
+	<h3>LAMAR DODD SCHOOL OF ART</h3>
+
+	<div class="emailSubmission">
+		<input id="emailInput" type="email" name="email" placeholder="example@email.com" /><br>
+		<button id="emailSubmit" type="submit">I WANT IN</button>
+	</div>
+</div>
